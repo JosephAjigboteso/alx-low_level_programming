@@ -2,7 +2,7 @@
 
 
 /**
- * main - print the string in the put funcion
+ * main - Entry point
  *
  * Description: using main function
  * this program prints "Programming is like building a multilingual puzzle"
@@ -11,7 +11,7 @@
 int main(void)
 {
 
-puts(""Programming is like building a mulitilingual puzzle\n");
+puts("\"Programming is like building a mulitilingual puzzle");
 return (0);
 
 }
