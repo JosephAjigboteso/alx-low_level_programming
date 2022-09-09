@@ -11,7 +11,7 @@
 int main(void)
 {
 
-puts("\"Programming is like building a mulitilingual puzzle");
+puts(""Programming is like building a mulitilingual puzzle\n");
 return (0);
 
 }
