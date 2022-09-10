@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ * main - print alphabets from z to a
+ *
+ * Descripttion: using the main function
+ * Return: Always 0 (Success)
+ */
+int main (void)
+{
+int a=z;
+
+for(;z < a 
