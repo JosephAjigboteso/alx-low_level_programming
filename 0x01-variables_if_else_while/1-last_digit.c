@@ -3,40 +3,33 @@
 #include <stdio.h>
 
 /**
- *main - print if last number is positive negative or zero
+ * main - entry point
  *
- *Description: using the main function
- *this program prints if last number is positive, negative or zero
- *Return: 0
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
-
 int n;
-int l;
+int lastn;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-l = n % 10;
-
-
-if (l > 5)
+lastn = n % 10;
+if (lastn > 5)
 {
-printf("Last digits of %d is %d and is greater than 5\n", n, l);
+printf("Last digit of %i is %i and is greater than 5\n", n, lastn);
 }
-else if  (l == 0)
+
+else if (lastn == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, l);
+printf("Last digit of %i is %i and is 0\n", n, lastn);
 }
+
 else
 {
-
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
-
+printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastn);
 }
 
 return (0);
-
 }
