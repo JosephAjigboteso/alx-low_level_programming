@@ -6,31 +6,29 @@
  * Description: using the main function
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
-
-int i;
-int j;
-
-for (i = 10; i <= 19; i++)
+int c = 0;
+int f_d;
+int l_d;
+while (c <= 99)
 {
-
-for (j = 10; j <= 19; j++)
-
+f_d = (c / 10 + '0');
+l_d = (c % 10 + '0');
+if (f_d < l_d)
 {
-putchar((i % 10) + '0');
-putchar((j % 10) + '0');
-
-if (i != 19 ||  j != 1)
+putchar(f_d);
+putchar(l_d);
+if (c != 89)
 {
 putchar(',');
-
 putchar(' ');
 }
 }
+c++;
 }
 putchar('\n');
-
 return (0);
 }
+
+
