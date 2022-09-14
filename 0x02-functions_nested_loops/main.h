@@ -37,8 +37,45 @@ int _islower(int c);
  * Return: 1 or 0
  *
  */
-
 int _isalpha(int c);
+
+/**
+ * print_sign - prints a sign based on n
+ *
+ * @n: integer to input
+ *
+ * Return: 1 or 0  or -1
+ *
+ */
+int print_sign(int n);
+
+/**
+ * _abs - gives absolute value
+ *
+ * @int: integer
+ *
+ * Return: integer or abs value of int
+ *
+ */
+int _abs(int);
+
+/**
+ *
+ * print_last_last - prints digit last
+ *
+ * @int: integer to input
+ *
+ * Return: last digit of integer
+ *
+ */
+int print_last_digit(int);
+
+
+/**
+ * jack_bauer - jack bauer gooo
+ *
+ */
+void jack_bauer(void);
 
 
 
