@@ -77,6 +77,22 @@ int print_last_digit(int);
  */
 void jack_bauer(void);
 
+/**
+ * times_table - times this up
+ *
+ */
+void times_table(void);
+
+
+/**
+ * add - adds stuff up
+ *
+ * @int: integers to add
+ *
+ * Return: returns a sum
+ */
+int add(int, int);
+
 
 
 
