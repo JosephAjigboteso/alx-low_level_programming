@@ -59,11 +59,9 @@ void more_numbers(void);
 void print_line(int n);
 
 /**
- * print_diagonal - print lines diagonally
- * @n: papramter to determine number of lines
+ * print_square - print square
  */
-void print_diagonal(int n);
-
+void print_square(int size);
 
 
 
