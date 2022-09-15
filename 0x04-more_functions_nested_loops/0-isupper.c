@@ -11,7 +11,6 @@ if (c >= 'A' && c <= 'B')
 {
 return (1);
 }
-else
 
 return (0);
 }
