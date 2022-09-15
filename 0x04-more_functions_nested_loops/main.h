@@ -47,7 +47,10 @@ void print_numbers(void);
  */
 void print_most_numbers(void);
 
-
+/**
+ * more_numbers - print numbers 10 times
+ */
+void more_numbers(void);
 
 
 
