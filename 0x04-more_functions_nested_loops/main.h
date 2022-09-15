@@ -53,5 +53,11 @@ void print_most_numbers(void);
 void more_numbers(void);
 
 
+/**
+ * print_line - print line in terminal
+ */
+void print_line(int n);
+
+
 
 #endif
