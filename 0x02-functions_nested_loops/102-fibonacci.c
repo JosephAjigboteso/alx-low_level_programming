@@ -15,16 +15,17 @@ long int c = a + b;
 printf("%ld, %ld, ", a, b);
 while (counter < 50)
 {
-printf("%ld\n", c);
+printf("%ld", c);
 counter++;
 a = b;
 b = c;
 c =  a + b;
+printf(", ");
 if (counter > 50)
 {
 printf(", ");
 }
 
 }
-return(0);
+return (0);
 }
