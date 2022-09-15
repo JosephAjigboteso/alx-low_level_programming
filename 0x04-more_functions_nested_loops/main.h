@@ -10,6 +10,13 @@
  */
 int _isupper(int c);
 
+/**
+ * _isdigit - checks for a digit
+ * @c: character to check
+ *
+ * Return: 1 if c is digit or 0 if otherwise
+ */
+int _isdigit(int c);
 
 
 
