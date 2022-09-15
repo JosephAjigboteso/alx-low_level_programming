@@ -19,6 +19,15 @@ int _isupper(int c);
 int _isdigit(int c);
 
 
+/**
+ * int_mul - multipy int a  & int b
+ * @a: first integer
+ * @b: second integer
+ * Return: 0
+ */
+int mul(int a, int b);
+
+
 
 
 
