@@ -1,5 +1,13 @@
 #ifndef _MAIN_
 #define _MAIN_
+/**
+ * _putchar - writes character c to std
+ * @c: parameter to compare
+ *
+ * Return: 1 or 0
+ */
+int _putchar(char c);
+
 
 /**
  * _isupper - checks for upper case character
@@ -28,7 +36,16 @@ int _isdigit(int c);
 int mul(int a, int b);
 
 
+/**
+ * print_numbers - print numbers from 0 to 9
+ *
+ */
+void print_numbers(void);
 
+/**
+ * print_most_numbers - print numbers 0 to 9 except 2 & 4
+ */
+void print_most_numbers(void);
 
 
 
