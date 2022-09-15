@@ -96,10 +96,15 @@ int add(int, int);
 /**
  * print_t_98 - natural numbers from n to 98
  *
- *@n - integer to put in this table
+ *@n: integer to start with
  */
- void print_to_98(int n);
+void print_to_98(int n);
 
-
+/**
+ * print_times_table - whatever num
+ *
+ * @n: integer to put in this table
+ */
+void print_times_table(int n);
 
 #endif
