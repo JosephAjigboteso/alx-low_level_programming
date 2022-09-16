@@ -63,8 +63,10 @@ void print_line(int n);
  */
 void print_square(int size);
 
-
-
+/**
+ * print_triangle - print trianlge using #
+ */
+void print_triangle(int size);
 
 
 
