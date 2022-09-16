@@ -1,1 +1,2 @@
-0) Debug if the function testing for positive or negative would produce a correct ouput for an input of 0
+This project is about code debugging and checking for errors in code and solving them
+
