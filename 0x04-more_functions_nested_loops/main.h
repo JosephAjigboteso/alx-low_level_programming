@@ -55,16 +55,25 @@ void more_numbers(void);
 
 /**
  * print_line - print line in terminal
+ * @n: character to determine number of lines
  */
 void print_line(int n);
 
 /**
+ * print_diagonal - print diagonal in terminal
+ * @n: character to determine number of diagonals to be printed
+ */
+void print_diagonal(int n);
+
+/**
  * print_square - print square
+ * @size: size of square
  */
 void print_square(int size);
 
 /**
- * print_triangle - print trianlge using #
+ * print_triangle - print triangle using #
+ * @size: determines size of triangle
  */
 void print_triangle(int size);
 
