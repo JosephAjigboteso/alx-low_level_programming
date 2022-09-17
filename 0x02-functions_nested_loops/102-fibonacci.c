@@ -19,13 +19,12 @@ printf("%ld", c);
 counter++;
 a = b;
 b = c;
-c =  a + b;
-printf(", ");
-if (counter > 50)
+c = a + b;
+if (counter < 50)
 {
 printf(", ");
 }
-
 }
+printf("\n");
 return (0);
 }
