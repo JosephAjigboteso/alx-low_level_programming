@@ -17,6 +17,12 @@ int _putchar(char c);
  */
 void reset_to_98(int *n);
 
+/**
+ * swap_int - swap int a and int b
+ * @a: first integer
+ * @b: secpond integer
+ */
+void swap_int(int *a, int *b);
 
 
 #endif
