@@ -44,4 +44,14 @@ void _puts(char *str);
  */
 void print_rev(char *s);
 
+/**
+ * rev_string  - reverse string
+ * @s: string
+ */
+void rev_string(char *s);
+
+
+
+
+
 #endif
