@@ -1,48 +1,35 @@
-#include "main.h"
-#include "2-strlen.c"
+#include <stdio.h>
+#include <math.h>
 
 /**
- * _atoi - converts string to integer
+ * main - finds and prints the largest prime factor of the number 612852475143
+ * followed by a new line
  *
- *  @s: string to convert
- *
- * Return: returns integer value
+ * Return: Always 0 (Success)
  *
  */
-int _atoi(char *s)
+int main(void)
 {
-int i;
-int np = 0;
-int c;
-int d = 1;
-int num = 0;
-for (i = 0; i < _strlen(s); i++)
+long int n;
+long int max;
+long int i;
+n = 612852475143;
+max = -1;
+while (n % 2 == 0)
 {
-if (!(s[i] >= '0' && s[i] <= '9') && c > 0)
-break;
-if (s[i] == '-')
-np--;
-if (s[i] == '+')
-np++;
-if (s[i] >= '0' && s[i] <= '9')
-{
-c++;
+max = 2;
+n /= 2;
 }
-while (c > 0)
+for (i = 3; i <= sqrt(n); i = i + 2)
 {
-num += ((s[i - 1] - '0') * d);
-i--;
-c--;
-d *= 10;
-}
-if (np >= 0)
+while (n % i == 0)
 {
-num *= 1;
-}
-else
-{
-num *= -1;
+max = i;
+n = n / i;
 }
 }
-return (num);
+if (n > 2)
+max = n;
+printf("%ld\n", max);
+return (0);
 }
