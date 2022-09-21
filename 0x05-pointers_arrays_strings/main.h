@@ -57,8 +57,9 @@ void rev_string(char *s);
 void puts2(char *str);
 
 /**
- * puts_half - prints half of the string 
- * @str - string to be printed 
+ * puts_half - prints half of the string
+ * @str - string to be printed
+ * Return: 0
  */
 void puts_half(char *str);
 
@@ -68,4 +69,12 @@ void puts_half(char *str);
  * @n: number of times to print
  */
 void print_array(int *a, int n);
+
+/**
+ * _strcpy - main function to copy
+ * @dest: destination to copy
+ * @src: pointer of string to be copied
+ * Return: 0
+ */
+char *_strcpy(char *dest, char *src);
 #endif
