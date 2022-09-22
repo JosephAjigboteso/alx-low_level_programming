@@ -35,6 +35,16 @@ char *_strncat(char *dest, char *src, int n);
  * @n: number of times
  * Return: value of dest
  */
-
 char *_strncpy(char *dest, char *src, int n);
+
+/**
+ * _strcmp - compare two strings
+ * @s1: string one
+ * @s2: string 2
+ * Return: value of string
+ */
+int _strcmp(char *s1, char *s2);
+
+
+
 #endif
