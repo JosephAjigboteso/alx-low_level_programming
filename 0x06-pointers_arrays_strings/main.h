@@ -33,7 +33,7 @@ char *_strncat(char *dest, char *src, int n);
  * @dest: first
  * @src: second
  * @n: number of times
- * Return: 0
+ * Return: value of dest
  */
 
 char *_strncpy(char *dest, char *src, int n);
