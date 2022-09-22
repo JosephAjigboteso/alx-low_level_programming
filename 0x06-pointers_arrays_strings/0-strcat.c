@@ -2,19 +2,20 @@
 /**
  * _strcat - append string src to string dest
  * @dest: first string
- * @src: override string dest
- * Return: pointer to string dest
+ * @src: string to concate first string
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-int i;
-int j;
-for (j = 0; dest[j] != '\0'; j++)
+int a;
+int b;
+for (b = 0; dest[a++]; b++)
 {
-for (i = 0; src[i] != '\0'; i++)
+for (a = 0; src[a]; a++)
 {
-dest[j + i] = src[i];
+dest[b++] = src[a];
 }
 }
 return (dest);
 }
+
