@@ -1,6 +1,6 @@
 #ifndef _MAIN_
 #define _MAIN_
-
+#include <stdio.h>
 /**
  * _putchar - writes the character c to stdout
  *
