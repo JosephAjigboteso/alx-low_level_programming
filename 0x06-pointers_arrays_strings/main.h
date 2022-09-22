@@ -28,6 +28,13 @@ char *_strcat(char *dest, char *src);
  */
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ *_strncpy - copy string dest into src
+ * @dest: first
+ * @src: second
+ * @n: number of times
+ * Return: 0
+ */
 
-
+char *_strncpy(char *dest, char *src, int n);
 #endif
