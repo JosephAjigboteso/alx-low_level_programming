@@ -5,17 +5,17 @@
  * @src: string to concate first string
  * Return: dest
  */
+
 char *_strcat(char *dest, char *src)
 {
-int a;
-int b;
-for (b = 0; dest[a++]; b++)
+int i;
+int j;
+for (j = 0; dest[j] != '\0'; j++)
+{}
+for (i = 0; src[i] != '\0'; i++)
 {
-for (a = 0; src[a]; a++)
-{
-dest[b++] = src[a];
+dest[j + i] = src[i];
 }
-}
+dest[j + i] = '\0';
 return (dest);
 }
-
