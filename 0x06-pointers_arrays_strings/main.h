@@ -47,4 +47,12 @@ int _strcmp(char *s1, char *s2);
 
 
 
+/**
+ * reverse_array - reverse array of integers
+ * @a: first integer
+ * @n: second integer
+ */
+
+void reverse_array(int *a, int n);
+
 #endif
