@@ -1,11 +1,7 @@
 #include <stdio.h>
 /**
- *main - main function
- *@a: first 
- *@b: second
- *@c: next
+ * main - main function
  * Return: nothing
- *
  */
 
 int main(void)
