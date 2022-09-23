@@ -52,7 +52,12 @@ int _strcmp(char *s1, char *s2);
  * @a: first integer
  * @n: second integer
  */
-
 void reverse_array(int *a, int n);
+
+/**
+ * string_toupper - change lowercase in string to uppercase letters
+ * Return: value of upper
+ */
+char *string_toupper(char *);
 
 #endif
