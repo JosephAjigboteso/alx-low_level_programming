@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncpy - copy strings
+ * _strncpy - copy strings
  * @dest: first string
  * @src: second string
  * @n: number of times
