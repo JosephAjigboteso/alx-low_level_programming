@@ -1,23 +1,31 @@
 #include <stdio.h>
+
 /**
  * main - main function
+ *
  * Return: nothing
+ *
  */
-
 int main(void)
 {
-int a = 1;
-int b = 2;
-int c;
-int i;
-int counter = 98;
-printf("%d, %d, ", a, b);
-for (i = 1; i <= 98; i++)
+int counter = 2;
+float a = 1;
+float b = a + 1;
+float c = a + b;
+printf("%.0f, ", a);
+printf("%.0f, ", b);
+while (counter < 98)
 {
-c = a + b;
+counter++;
 a = b;
 b = c;
-printf("%d, ", c);
+c = a + b;
+printf("%.0f", c);
+if (counter < 98)
+{
+printf(", ");
 }
+}
+printf("\n");
 return (0);
 }
