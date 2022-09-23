@@ -78,6 +78,12 @@ char *cap_string(char *);
  */
 char *leet(char *);
 
+/**
+ * rot13 - replace words in string with 13th letter farther away
+ * Return: the resulting string
+ */
+char *rot13(char *);
+
 
 
 
