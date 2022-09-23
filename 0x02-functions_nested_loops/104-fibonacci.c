@@ -8,24 +8,20 @@
  */
 int main(void)
 {
-int counter = 2;
-float a = 1;
-float b = a + 1;
-float c = a + b;
-printf("%.0f, ", a);
-printf("%.0f, ", b);
-while (counter < 98)
+
+int a = 1;
+int b = 2;
+int i;
+int counter = 98;
+int c;
+printf("%d, ", a);
+printf("%d, ", b);
+for (i = 1; i <= 98; i++)
 {
-counter++;
-printf("%.0f", c);
+c = a + b;
 a = b;
 b = c;
-c = a + b;
-if (counter < 98)
-{
-printf(", ");
+printf("%d, ", c);
 }
-}
-printf("\n");
 return (0);
 }
