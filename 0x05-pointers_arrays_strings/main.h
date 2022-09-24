@@ -86,7 +86,10 @@ char *_strcpy(char *dest, char *src);
  */
 int _atoi(char *s);
 
-
+/**
+ * print_number - print integer n
+ */
+void print_number(int n);
 
 
 
