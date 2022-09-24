@@ -1,26 +1,24 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * print_number - prints an integer
+ * main - generates random passwords for 101-crackme
  *
- * @n: integer to be printed
+ * Return: zero
  *
  */
-void print_number(int n)
+int main(void)
 {
-unsigned int n1;
-if (n < 0)
+int sum;
+char c;
+srand(time(NULL));
+while (sum <= 2645)
 {
-n1 = -n;
-_putchar('-');
+c = rand() % 128;
+sum += c;
+putchar(c);
 }
-else
-{
-n1 = n;
-}
-if (n1 / 10)
-{
-print_number(n1 / 10);
-}
-_putchar((n1 % 10) + '0');
+putchar(2772 - sum);
+return (0);
 }
