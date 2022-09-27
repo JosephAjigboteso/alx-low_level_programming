@@ -25,28 +25,26 @@ char *_memset(char *s, char b, unsigned int n);
  * @src: memory area to copy bytes from
  * @dest: memory area to paste bytes
  * Return: pointer to dest
+ * @n: determines amount of bytes
  **/
 char *_memcpy(char *dest, char *src, unsigned int n);
 
 /**
  * _strchr - locates character c in string s
- * @s: string to be searched 
+ * @s: string to be searched
  * @c: character to be searched
  * Return: pointer if c is found
  * Or null: is c isnt found
  */
 char *_strchr(char *s, char c);
 
-
-
-
-
-
-
-
-
-
-
+/**
+ * _strspn - get length of prefix substring
+ * @s: first string
+ * @accept: second string
+ * Return: bytes of prefix string
+ */
+unsigned int _strspn(char *s, char *accept);
 
 
 
