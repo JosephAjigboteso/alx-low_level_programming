@@ -46,7 +46,12 @@ char *_strchr(char *s, char c);
  */
 unsigned int _strspn(char *s, char *accept);
 
-
-
+/**
+ * _strpbrk - searches string for any set of integers
+ * @s: strings
+ * @accept: string
+ * Return: pointer to byte in s or null if byte not found
+ */
+char *_strpbrk(char *s, char *accept);
 
 #endif
