@@ -28,6 +28,15 @@ char *_memset(char *s, char b, unsigned int n);
  **/
 char *_memcpy(char *dest, char *src, unsigned int n);
 
+/**
+ * _strchr - locates character c in string s
+ * @s: string to be searched 
+ * @c: character to be searched
+ * Return: pointer if c is found
+ * Or null: is c isnt found
+ */
+char *_strchr(char *s, char c);
+
 
 
 
