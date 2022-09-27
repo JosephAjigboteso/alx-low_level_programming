@@ -54,4 +54,12 @@ unsigned int _strspn(char *s, char *accept);
  */
 char *_strpbrk(char *s, char *accept);
 
+/**
+ * _strstr - locates a substring
+ * @haystack: substring of needle
+ * @needle: string
+ * Return: pointer if substring is found or NULL if not
+ */
+char *_strstr(char *haystack, char *needle);
+
 #endif
