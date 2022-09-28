@@ -74,4 +74,12 @@ void print_chessboard(char (*a)[8]);
  * @size: determines size of matrix
  */
 void print_diagsums(int *a, int size);
+
+/**
+ * set_string - sets value of a pointer to a char
+ * @s: double pointer
+ * @to: pointer
+ */
+
+void set_string(char **s, char *to);
 #endif
