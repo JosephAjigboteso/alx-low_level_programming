@@ -68,4 +68,10 @@ char *_strstr(char *haystack, char *needle);
  */
 void print_chessboard(char (*a)[8]);
 
+/**
+ * print_diagsums - add sum of diagonals in square matrix
+ * @a: array of matrix casted a s a pointer
+ * @size: determines size of matrix
+ */
+void print_diagsums(int *a, int size);
 #endif
