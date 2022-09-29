@@ -46,4 +46,20 @@ int factorial(int n);
  * Return: result
  */
 int _pow_recursion(int x, int y);
+
+/**
+ * _sqrt_recursion - find square of given integer
+ * @n: intger n
+ * Return: return square root
+ */
+int _sqrt_recursion(int n);
+
+/**
+ * root - process square root when n is not 0 or 1
+ * @n: number
+ * @i: incrementor
+ * Return (square root)
+ */
+
+int root(int n, int i);     
 #endif
