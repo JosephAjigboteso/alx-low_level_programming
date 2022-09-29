@@ -77,4 +77,23 @@ int is_prime_number(int n);
  * Return: 0
  */
 int helper_prime(int n, int i, int limit);
+
+/**
+ * is_palindrome - check if a string is empty or not
+ * @s: string
+ * Return: 1 is string is palindrome or 0 if not
+ */
+int is_palindrome(char *s);
+
+/**
+ * palindrome_check - returns 1 if palindrome and 0 if not
+ * @s: string
+ * @len: length of string
+ * @i: counter variable
+ *
+ * Return: int
+ *
+ */
+int palindrome_check(char *s, int len, int i);
+
 #endif
