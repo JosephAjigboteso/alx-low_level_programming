@@ -25,4 +25,11 @@ void _puts_recursion(char *s);
  */
 void _print_rev_recursion(char *s);
 
+/**
+ * _strlen_recursion - print length oof string using recursion
+ * @s:string whose length is to be found
+ * Return: length
+ */
+int _strlen_recursion(char *s);
+
 #endif
