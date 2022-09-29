@@ -53,13 +53,28 @@ int _pow_recursion(int x, int y);
  * Return: return square root
  */
 int _sqrt_recursion(int n);
-
 /**
  * root - process square root when n is not 0 or 1
  * @n: number
  * @i: incrementor
- * Return (square root)
+ * Return: (square root)
  */
 
-int root(int n, int i);     
+int root(int n, int i);
+
+/**
+ * is_prime_number - check if input is a prime number
+ * @n: integer to check
+ * Return: return 1 or 0
+ */
+int is_prime_number(int n);
+
+/**
+ * helper_prime - checks for prime number
+ * @n: number
+ * @i: for the increment
+ * @limit: stop
+ * Return: 0
+ */
+int helper_prime(int n, int i, int limit);
 #endif
