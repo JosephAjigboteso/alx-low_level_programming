@@ -96,4 +96,13 @@ int is_palindrome(char *s);
  */
 int palindrome_check(char *s, int len, int i);
 
+/**
+ * wildcmp -compare strings
+ * @s1: strings 1
+ * @s2: strings 2
+ * Return: 1 or 0
+ */
+
+int wildcmp(char *s1, char *s2);
+
 #endif
