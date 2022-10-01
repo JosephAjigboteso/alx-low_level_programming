@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-/** write a program that prints it name followed by a new line **/
-int main (int argc, char * argv[])
+/**
+ * main - print command executuon strings
+ * @argc: detemines number of argumets passed when executing file
+ * @argv: prints the strings
+ * Return: 0
+ */
+int main(int argc, char *argv[])
 {
 int i;
 for (i = 0; i < argc; i++)
