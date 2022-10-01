@@ -1,0 +1,1 @@
+Working with C static libraries, how to create object files and add to a static library. Also how to compile codes with library.
