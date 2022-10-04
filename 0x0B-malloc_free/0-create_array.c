@@ -4,14 +4,14 @@
  * create_array - pointer to first string character
  * @size: size of array
  * @c: character to filled array with
- * Return: char
+ * Return: pointer to the array
  */
 char *create_array(unsigned int size, char c)
 {
 char *p;
 unsigned int i;
 p = malloc(sizeof(char) * size);
-if (size == 1)
+if (size == 0)
 {
 return (NULL);
 }
