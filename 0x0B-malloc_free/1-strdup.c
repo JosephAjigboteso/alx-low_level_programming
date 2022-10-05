@@ -10,20 +10,21 @@ char *_strdup(char *str)
 char *p;
 int i;
 int c;
+if (str == NULL)
+{
+return (NULL);
+}
 for (c = 0; str[c] != '\0'; c++)
 {
-if (p == NULL)
-{
-return (NULL);
-}
 p = malloc(sizeof(char) * c + 1);
 }
-for (i = 0; i < c; i++)
-{
 if (p == NULL)
 {
 return (NULL);
 }
+
+for (i = 0; i < c; i++)
+{
 p[i] = str[i];
 }
 return (p);
