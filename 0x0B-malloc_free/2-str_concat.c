@@ -14,7 +14,9 @@ char *my_array;
 c = 0;
 my_array = malloc(sizeof(*s1 + *s2));
 if (my_array == NULL)
+{
 return (NULL);
+}
 a = 0;
 while (s1[a] != '\0')
 {
