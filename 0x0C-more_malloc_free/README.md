@@ -1,0 +1,1 @@
+This project is abput more on dynamic memory allocation, mallocs, reallocas callocs and free and also theexit function
