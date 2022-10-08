@@ -3,7 +3,7 @@
 
 /**
  * array_range - create an array of strings
- * @min: starting point 
+ * @min: starting point
  * @max: end string point
  * Return: pointer t the array
  */
