@@ -14,18 +14,19 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (c = 0; str[c] != '\0'; c++)
+c = 0;
+while (str[c] != '\0')
 {
-p = malloc(sizeof(char) * c + 1);
+c++;
+}
+p = malloc(sizeof(char) * c);
+for (i = 0; i < c; i++)
+{
+p[i] = str[i];
 }
 if (p == NULL)
 {
 return (NULL);
-}
-
-for (i = 0; i < c; i++)
-{
-p[i] = str[i];
 }
 return (p);
 }
