@@ -14,15 +14,13 @@ char *my_array;
 a = 0;
 b = 0;
 i = 0;
-while (s1[i] != '\0')
+while (s1[a] != '\0')
 {
-i++;
 a++;
 }
 
-while (s2[i] != '\0')
+while (s2[b] != '\0')
 {
-i++;
 b++;
 }
 
@@ -48,6 +46,7 @@ while (i < b)
 {
 my_array[i + a] = s2[i];
 i++;
+my_array[i + a] != '\0';
 }
 return (my_array);
 }
