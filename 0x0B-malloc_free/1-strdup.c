@@ -19,7 +19,7 @@ while (str[c] != '\0')
 {
 c++;
 }
-p = malloc(sizeof(char) * c);
+p = malloc(sizeof(char) * c + 1);
 if (p == NULL)
 {
 return (NULL);
