@@ -27,4 +27,6 @@ else
 printf("0wner: %s\n", d->owner);
 }
 }
+else
+return;
 }
