@@ -1,0 +1,1 @@
+Structures and Typedef: This program is to give inisght to structures how to use and declare them and solving problems.
