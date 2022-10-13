@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 /**
- * int_index - seraches for an integer by calling other functions
+ * int_index- searches for an integer by calling other functions
  * @array: array of numbers
  * @size: number of elements in the array
  * @cmp: pointer to functions
+ * Return: returns i if cmp doesnt return 0 or -1 if otherwise
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
