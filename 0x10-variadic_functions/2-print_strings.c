@@ -21,14 +21,14 @@ if (string == NULL)
 {
 printf("(nil)");
 }
-else if (separator != NULL && i > 0)
-{
-printf("%s", separator);
-}
 else
 {
 printf("%s", string);
-	}
+}
+if (separator != NULL && i < n - 1)
+{
+printf("%s", separator);
+}
 }
 va_end(printstrings);
 printf("\n");
