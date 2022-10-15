@@ -11,20 +11,22 @@ if (d != NULL)
 {
 if (d->name == NULL)
 {
-printf("Name: NULL\n");
+printf("Name: NILL\n");
 }
 else
-{
+{                    
 printf("Name: %s\n", d->name);
 }
 printf("Age: %f\n", d->age);
 if (d->owner == NULL)
 {
-printf("Owner: NULL\n");
+printf("Owner: NILL\n");
 }
 else
 {
 printf("0wner: %s\n", d->owner);
 }
 }
+else
+return;
 }
