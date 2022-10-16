@@ -49,5 +49,6 @@ while (i < b)
 my_array[i + a] = s2[i];
 i++;
 }
+my_array[i + a] = '\0';
 return (my_array);
 }
