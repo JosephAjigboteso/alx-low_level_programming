@@ -4,7 +4,7 @@
  * add_node -  adds a new node at the beginning of a list_t list.
  * @head: pointer to pointer of list
  * @str: adata to store in new node
- * Return the address of new node or NULL if failed
+ * Return: the address of new node or NULL if failed
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -15,7 +15,7 @@ if (new_node == NULL)
 {
 return (NULL);
 }
-for ( i = 0; str[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 i++;
 }
