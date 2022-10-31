@@ -1,5 +1,4 @@
-*~
-*'#
 *.swo
-*.swp
-*-main.c
+.swn
+*.swn
+*.swo
