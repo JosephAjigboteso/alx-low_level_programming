@@ -9,7 +9,7 @@ listint_t *tmp;
 while (head != NULL)
 {
 tmp = head;
-free (head);
-head = tmp->next;
+free (tmp);
+head = head->next;
 }
 }
