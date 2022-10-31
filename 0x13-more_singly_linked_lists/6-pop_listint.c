@@ -1,9 +1,10 @@
 #include "lists.h"
 /**
- *pop_listint_t - delete hrad node
+ *pop_listint - delete head node
  *@head: point to head node
+ *Return: valur of n for head node
  */
- int pop_listint(listint_t **head)
+int pop_listint(listint_t **head)
 {
 listint_t *tmp;
 int num = 0;
