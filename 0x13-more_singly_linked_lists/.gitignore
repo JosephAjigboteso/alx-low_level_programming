@@ -1,4 +1,4 @@
 *.swo
-.swn
+*-main.c
 *.swn
 *.swo
